@@ -19,7 +19,7 @@ public class TryCatch {
                         System.out.println("invalid number");
                     }
                 } catch (NumberFormatException e) {
-                    System.out.println("invalid number " + e.getMessage());
+                    System.out.println("invalid  number " + e.getMessage());
                 }
             }
 
